@@ -16,4 +16,5 @@
 1. [PHP](https://www.php.net/)
 2. [Laravel](https://laravel.com/)
 3. [Laragon](https://laragon.org/)
-4. [PHP Github API](https://github.com/KnpLabs/php-github-api)
+4. [PHP Storm](https://www.jetbrains.com/pt-br/phpstorm/)
+5. [PHP Github API](https://github.com/KnpLabs/php-github-api)
