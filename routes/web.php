@@ -20,6 +20,7 @@ Route::get('/', function () {
 Route::get('/search/simple-html-table/{username}', function(string $username) {
     return view('simple_html_table', compact('username'));
 });
+
 Route::get('/search/{username}', function(string $username) {
     return view('datatable', compact('username'));
 });
