@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use \App\Http\Controllers\GithubController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,10 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/search/{username}', [GithubController::class, 'getUserRepositories']);
+
 Route::get('/search/simple-html-table/{username}', function(string $username) {
     return view('simple_html_table', compact('username'));
-});
-
-Route::get('/search/{username}', function(string $username) {
-    return view('datatable', compact('username'));
 });
