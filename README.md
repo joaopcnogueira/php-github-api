@@ -19,3 +19,8 @@
 4. [PHP Storm](https://www.jetbrains.com/pt-br/phpstorm/)
 5. [PHP Github API](https://github.com/KnpLabs/php-github-api)
 6. [DataTables](https://datatables.net/)
+
+# To Know
+1. Route: [routes/web.php](routes/web.php)
+2. Controller: [app/Http/Controllers/GithubController.php](app/Http/Controllers/GithubController.php)
+3. View: [resources/views/datatable.blade.php](resources/views/datatable.blade.php)
